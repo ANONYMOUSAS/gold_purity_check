@@ -768,7 +768,7 @@ class _HistoryScreenState extends State<HistoryScreen> with TickerProviderStateM
     if (history.isEmpty) return;
 
     final pdf = pw.Document();
-    final generatedDate = DateFormat('EEEE, MMMM d, yyyy').format(DateTime.now());
+    // final generatedDate = DateFormat('EEEE, MMMM d, yyyy').format(DateTime.now());
 
     pdf.addPage(
       pw.MultiPage(
